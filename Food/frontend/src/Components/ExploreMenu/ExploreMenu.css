@@ -1,0 +1,28 @@
+.explore-menu{
+    display: flex;
+    flex-direction: column;
+    gap: 70px;
+}
+.explore-menu h1{
+    color: #262626;
+    font-weight: 500px;
+    font-size: 40px;
+    text-align: center;
+    padding-top: 30px;
+}
+.explore-menu-text{
+    font-size: 25px;
+    font-weight: 400px;
+    columns: #808080;
+    
+}
+.explore-menu-list{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 25px;
+    text-align: center;
+    margin: 20px 0px;
+    
+    font-size: 20px;
+}

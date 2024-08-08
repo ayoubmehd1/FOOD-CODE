@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+.navbar{
+    padding: 20px 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+
+}
+
+.logo img{
+    size: 10px 10px;
+    width: 25%;
+    top: auto;
+    cursor: pointer;
+
+    
+}
+.navbar-menu{
+    display: flex;
+    gap: 30px;
+    font-size: 30px;
+    justify-content: space-between ;
+    list-style: none;
+    font-family: Outfit;
+}
+.navbar-right{
+    display: flex;
+    align-items:center;
+    
+    
+
+}
+.search img{
+    cursor: pointer;
+    width: 15%;
+
+}
+
+.basket img{
+    width: 13%;
+    background-size: 10px;
+    cursor: pointer;
+    
+
+}
+.button{
+    cursor: pointer;
+    border: 2px solid;
+    box-shadow: none;
+    border-radius: 88px;
+    width: 15%;
+    background-color: rgb(240, 165, 152);
+    height: 3.5em;
+    transition: 0.4s;
+    font-size: 130%;
+    
+}
+
+.button:hover{
+    background-color: rgb(221, 187, 177);
+}
+.button:active{
+    background-color: rgb(221, 215, 213);
+    transition: 0,9s;
+}
+.navbar li{
+    cursor:pointer;
+}
+.navbar-menu .active{
+    padding-bottom: 2px;
+    border-bottom: 2px solid rgb(164, 80, 55);
+}
+.basket{
+    position: relative;
+}
+.basket .dot{
+    position: absolute;
+    min-width: 15px;
+    min-height: 15px;
+    background-color: tomato;
+    border-radius: 50px;
+    top: -5px;
+    right: 418px;
+}
